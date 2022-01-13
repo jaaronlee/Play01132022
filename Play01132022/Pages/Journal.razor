@@ -1,0 +1,14 @@
+﻿@page "/journal"
+
+<h1>Journal Entry</h1>
+<DatePicker @bind-Value="@_format2" Format="dd/mm/yyyy" />
+<br />
+<TextArea Rows="4" />
+<Button Type="primary">Save</Button>
+
+
+
+
+@code {
+    DateTime? _format2 = new DateTime(2015,1,1);
+}

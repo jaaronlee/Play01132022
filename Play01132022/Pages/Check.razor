@@ -1,0 +1,61 @@
+﻿@page "/check"
+
+<h1>Check-In</h1>
+
+
+<div>How do you feel?</div>
+<Rate @bind-Value="valueFeel" Tooltips="@descFeel" />
+<span class="ant-rate-text">@(descFeel[(int)valueFeel-1])</span>
+<p></p>
+<Divider />
+
+<p></p>
+<div>How is you overall mood?</div>
+<Rate @bind-Value="valueMood" Tooltips="@descMood" />
+<span class="ant-rate-text">@(descMood[(int)valueMood-1])</span>
+<p></p>
+<Divider />
+
+<p></p>
+<div>How motivated to reach your goals?</div>
+<div>
+    <Slider TValue="double" DefaultValue="34" Value="@value" TipFormatter="(d) => tipFormatter(d)" />
+</div>
+<p></p>
+
+<Divider />
+<p></p>
+Have you had any urges since last check-in?
+<div>
+    <RadioGroup @bind-Value="@urges_boolValue">
+        <Radio Value="true">Yes</Radio>
+        <Radio Value="false">No</Radio>
+    </RadioGroup>
+</div>
+<p></p>
+@if (urges_boolValue)
+{
+    <Button>Record Urge</Button>
+}
+
+<Divider />
+
+
+@code
+{
+    string[] descFeel = new string[] { "terrible", "bad", "normal", "good", "wonderful" };
+    decimal valueFeel = 3M;
+
+    string[] descMood = new string[] { "Sad", "bad", "normal", "good", "Happy" };
+    decimal valueMood = 3M;
+
+
+    private int value { get; set; }
+
+    string tipFormatter(double currentEdgeValue)
+    {
+        return $"{currentEdgeValue}%";
+    }
+
+    bool urges_boolValue;
+}

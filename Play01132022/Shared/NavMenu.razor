@@ -1,0 +1,73 @@
+﻿<div class="top-row pl-4 navbar navbar-dark">
+    <a class="navbar-brand" href="">Play01132022</a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="()=>expandSubNav = !expandSubNav">
+                <span class="oi oi-book" aria-hidden="true"></span> Journal
+            </NavLink>
+            @if (expandSubNav)
+            {
+            <ul class="accordion">
+                <NavLink class="nav-item px-3" href="check">
+                    <span class="oi oi-book" aria-hidden="true"></span>Daily Check-In
+                </NavLink>
+                <NavLink class="nav-item px-3" href="journal">
+                    <span class="oi oi-book" aria-hidden="true"></span> Journal Entry
+                </NavLink>
+                <NavLink class="nav-item px-3" @onclick="()=>expandSubLog = !expandSubLog">
+                    <span class="oi oi-book" aria-hidden="true"></span>Logs
+                </NavLink>
+                        @if (expandSubLog)
+                        {
+                                <ul class="accordion">
+                                    <NavLink class="nav-item px-3" href="thought">
+                                        <span class="oi oi-book" aria-hidden="true"></span>Thoughts
+                                    </NavLink>
+                                    <NavLink class="nav-item px-3" href="urge">
+                                        <span class="oi oi-book" aria-hidden="true"></span>Cravings
+                                    </NavLink>
+                                    <NavLink class="nav-item px-3" href="event">
+                                        <span class="oi oi-book" aria-hidden="true"></span>Risky Event
+                                    </NavLink>
+                                    <NavLink class="nav-item px-3" href="used">
+                                        <span class="oi oi-book" aria-hidden="true"></span>Used
+                                    </NavLink>
+                                </ul>
+                            }
+                    </ul>
+                }
+</li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata" >
+                <span class="oi oi-chat" aria-hidden="true"></span>Forum
+            </NavLink>
+        </li>
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private string GroupTitle = "Journal";
+    private string submenu = "Logs";
+    private bool expandSubNav;
+    private bool expandSubLog;
+}
