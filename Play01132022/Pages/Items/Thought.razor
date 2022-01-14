@@ -1,0 +1,98 @@
+﻿@page "/thought"
+
+<h1>Dysfunctional Thoughts</h1>
+
+
+<div>
+    <span>Describe the situation:</span>
+    <TextArea Rows="4" />
+    <Divider />
+
+    <span>Was thought:</span>
+    <span>Automatic:</span><RadioGroup @bind-Value="@auto_boolValue">
+        <Radio Value="true">Yes</Radio>
+        <Radio Value="false">No</Radio>
+    </RadioGroup>
+    <Divider />
+
+    <span>Intrusive:</span><RadioGroup @bind-Value="@intru_boolValue">
+        <Radio Value="true">Yes</Radio>
+        <Radio Value="false">No</Radio>
+    </RadioGroup>
+    <Divider />
+
+    <div> Belief in automatic thought:</div>
+    <div>
+        <Slider TValue="double" DefaultValue="34" Value="@valueBelief" />
+    </div>
+    <p></p>
+    <Divider />
+
+    <span>Emotion:</span>
+    <div>
+        <CheckboxGroup Style="width:100%">
+            <Row>
+                <Checkbox Label="Guilt">Guilt</Checkbox>
+                <Checkbox Label="Disgust">Disgust</Checkbox>
+                <Checkbox Label="Anxiety">Anxiety</Checkbox>
+                <Checkbox Label="Sad">Sad</Checkbox>
+            </Row>
+            <Row>
+                <Checkbox Label="Shame">Shame</Checkbox>
+                <Checkbox Label="Bored">Bored</Checkbox>
+                <Checkbox Label="Tired">Tired</Checkbox>
+                <Checkbox Label="Anger">Anger</Checkbox>
+            </Row>
+            <Row>
+                <Checkbox Label="Irritable">Irritable</Checkbox>
+                <Checkbox Label="Lonely">Lonely</Checkbox>
+                <Checkbox Label="Frustrated">Frustrated</Checkbox>
+                <Checkbox Label="Stressed">Stressed</Checkbox>
+            </Row>
+            <Row>
+                <Checkbox Label="Numb">Numb</Checkbox>
+                <Checkbox Label="Depressed">Depressed</Checkbox>
+                <Checkbox Label="Grateful">Grateful</Checkbox>
+                <Checkbox Label="Fearful">Fearful</Checkbox>
+            </Row>
+        </CheckboxGroup>
+        <p></p>
+        <Divider />
+        <span>Identitfy thought distortions:</span>
+        <CheckboxGroup>
+            <Checkbox Label="all">All or nothing thinking</Checkbox>
+            <Checkbox Label="overgeneralize">Overgeneralizing</Checkbox>
+            <Checkbox Label="filter">Mental Filter</Checkbox>
+            <Checkbox Label="discountP">Discounting the positive</Checkbox>
+            <Checkbox Label="fortune">Fortune telling</Checkbox>
+            <Checkbox Label="personalization">Personalization</Checkbox>
+            <Checkbox Label="Magnification">Magnification</Checkbox>
+            <Checkbox Label="Minimization">Minimization</Checkbox>
+            <Checkbox Label="EmoReasoning">Emotional Reasoning</Checkbox>
+            <Checkbox Label="shouldThoughts">Should thoughts</Checkbox>
+            <Checkbox Label="labeling">Labeling</Checkbox>
+            <Checkbox Label="Mislabeling">Mislabeling</Checkbox>
+        </CheckboxGroup>
+    </div>
+    <p></p>
+    <Divider />
+    Alternate thought:
+    <TextArea Rows="4" />
+    <Divider />
+
+    <div> Belief in alternative thought:</div>
+    <div>
+        <Slider TValue="double" DefaultValue="34" Value="@valueBelief" />
+    </div>
+    <p></p>
+    <Divider />
+</div>
+
+
+
+
+@code {
+    bool auto_boolValue = false;
+    double valueBelief = 34;
+    bool intru_boolValue = false;
+}
