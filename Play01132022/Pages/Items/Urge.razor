@@ -1,22 +1,103 @@
 ﻿@page "/urge"
 
-<h1>Urge</h1>
+<h1>Urges and Cravings</h1>
 
 
 <div>
-    2) Craving and urges
-    When: now, earlier today, previous day
-    What were you craving:
-    How strong was craving: 1-10
-    How long did it last?
-    What were the physical sensations? Chest, Stomach, Neck, Shoulders, Jaw, Racing Heart, Nose, Other
-    Emotions: anxiety, excitement, anticipation, restlessness, irritability
-    Thoughts: I need, I have to have it, I’m going crazy, I can’t take this feeling
-    How did you respond? Avoid, Escape, Distract, Endure
-    Triggers: Add, Name, Type (feeling, thought, person, people, place, activity, situation, memory, thing
-    How intense was trigger: 1-10
-    Did you try a skill? What skill?
-    Notes
+    <span>When was the craving?</span>
+    <RadioGroup @bind-Value="@_value">
+        <Radio Value="1">Now</Radio>
+        <Radio Value="2">Today</Radio>
+        <Radio Value="3">Previously</Radio>
+    </RadioGroup>
+
+    <span>What were you craving?</span>
+    <TextArea Rows="2" />
+
+    <Divider />
+    <span>How strong was craving?</span>
+    <Slider TValue="double" DefaultValue="34" Value="@valueCrave" />
+    <Divider />
+
+    <span>How long did it last?</span>
+    <CheckboxGroup Style="width:100%">
+        <Checkbox Label="Minute">Less than a minute</Checkbox>
+        <Checkbox Label="Minutes">Minutes</Checkbox>
+        <Checkbox Label="Hour">Hour</Checkbox>
+        <Checkbox Label="Hours">Hours</Checkbox>
+    </CheckboxGroup>
+
+    <Divider />
+    <span>What were the physical sensations?</span>
+    <CheckboxGroup Style="width:100%">
+        <Checkbox Label="Chest">Chest</Checkbox>
+        <Checkbox Label="Stomach">Stomach</Checkbox>
+        <Checkbox Label="Neck">Neck</Checkbox>
+        <Checkbox Label="Shoulders">Shoulders</Checkbox>
+        <Checkbox Label="Jaw">Jaw</Checkbox>
+        <Checkbox Label="Heart">Racing Heart</Checkbox>
+        <Checkbox Label="Nose">Nose/Smell</Checkbox>
+        <Checkbox Label="Other">Other</Checkbox>
+    </CheckboxGroup>
+    <Divider />
+    <span>Emotions:</span>
+    <CheckboxGroup Style="width:100%">
+        <Row>
+            <Checkbox Label="Guilt">Guilt</Checkbox>
+            <Checkbox Label="Disgust">Disgust</Checkbox>
+            <Checkbox Label="Anxiety">Anxiety</Checkbox>
+            <Checkbox Label="Sad">Sad</Checkbox>
+        </Row>
+        <Row>
+            <Checkbox Label="Shame">Shame</Checkbox>
+            <Checkbox Label="Bored">Bored</Checkbox>
+            <Checkbox Label="Tired">Tired</Checkbox>
+            <Checkbox Label="Anger">Anger</Checkbox>
+        </Row>
+        <Row>
+            <Checkbox Label="Irritable">Irritable</Checkbox>
+            <Checkbox Label="Lonely">Lonely</Checkbox>
+            <Checkbox Label="Frustrated">Frustrated</Checkbox>
+            <Checkbox Label="Stressed">Stressed</Checkbox>
+        </Row>
+        <Row>
+            <Checkbox Label="Numb">Numb</Checkbox>
+            <Checkbox Label="Depressed">Depressed</Checkbox>
+            <Checkbox Label="Grateful">Grateful</Checkbox>
+            <Checkbox Label="Fearful">Fearful</Checkbox>
+        </Row>
+    </CheckboxGroup>
+    <Divider />
+
+    <span>Thoughts:</span>
+    <CheckboxGroup>
+        <Checkbox Label="Ineed">I need</Checkbox>
+        <Checkbox Label="Ihave">I have to have it</Checkbox>
+        <Checkbox Label="Icrazy">I'm going crazy</Checkbox>
+        <Checkbox Label="Icant">I can't take this'</Checkbox>
+    </CheckboxGroup>
+    <Divider />
+
+    <span>How did you respond?</span>
+    <CheckboxGroup>
+        <Checkbox Label="Avoid">Avoid</Checkbox>
+        <Checkbox Label="Escape">Escape</Checkbox>
+        <Checkbox Label="Distract">Distract</Checkbox>
+        <Checkbox Label="Endure">Endure</Checkbox>
+    </CheckboxGroup>
+    <Divider />
+
+    <span>Triggers?</span>
+    <div>Add, Name, Type (feeling, thought, person, people, place, activity, situation, memory, thing</div>
+    <Divider />
+
+    <span>How intense was trigger:</span>
+    <Slider TValue="double" DefaultValue="34" Value="@valueTrigger" />
+
+    <span>Notes</span>
+    <TextArea Rows="2" />
+    <p></p>
+    <Button Type="primary">Save</Button>
 </div>
 
 
@@ -24,4 +105,8 @@
 
 @code {
     DateTime? _format2 = new DateTime(2015,1,1);
+    string whenCraving;
+    double valueCrave = 34;
+    double valueTrigger = 34;
+    string _value;
 }

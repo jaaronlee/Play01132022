@@ -5,20 +5,40 @@
 
 <div>
 
-    3) Risky Event Planner
-    Description
-    Date / Time
-    What trigger or urges do you expect?
-    How risky? 1-10
-    Coping strategy?
-    Backup plan?
-    Set an alert?
 
 </div>
+
+
+<DatePicker @bind-Value="@_format2" Format="dd/mm/yyyy" />
+<br />
+<Divider />
+Description:
+<TextArea Rows="2" />
+<Divider />
+<span>What trigger or urges do you expect?</span>
+<TextArea Rows="2" />
+<Divider />
+<span>How risky?</span>
+<Slider TValue="double" DefaultValue="34" Value="@valueRisky" />
+<Divider />
+<span>Coping strategy?</span>
+<TextArea Rows="2" />
+<Divider />
+    Backup plan:
+<span />
+<TextArea Rows="2" />
+
+<Divider />
+<span>Set an alert?</span>
+<DatePicker @bind-Value="@_format2" Format="dd/mm/yyyy" />
+
+
+<Button Type="primary">Save</Button>
 
 
 
 
 @code {
-
+    DateTime? _format2 = new DateTime(2015, 1, 1);
+    double valueRisky = 34;
 }
