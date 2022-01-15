@@ -12,7 +12,12 @@
             }
 
 
-
+    public class Answer
+    {
+        public string aNumber{ get; set; }
+        public string aQuestion{ get; set; }
+        public string aAnswer{ get; set; }
+    }
 
 Sign Up
 Log In
