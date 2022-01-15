@@ -1,10 +1,11 @@
+﻿
  @foreach (var question in questions)
             {
                 <tr>
                     <h2>@question.QQuestion</h2>
                     @foreach (string s in question.Answers)
                         {
-                            <Button Block>@s</Button>
+                            <Button Size="@_size" Block>@s</Button>
                             <p></p>
                         }
                 </tr>
@@ -12,7 +13,161 @@
             }
 
 
+    public class Answer
+    {
+        public string aNumber{ get; set; }
+        public string aQuestion{ get; set; }
+        public string aAnswer{ get; set; }
+    }
 
+
+Two or three symptoms indicate a mild substance use disorder;1
+
+ four or five symptoms indicate a moderate substance use disorder, and six or more symptoms indicate a severe substance use disorder.
+ Clinicians can also add “in early remission,” “in sustained remission,” “on maintenance therapy” for certain substances, and “in a controlled environment.” 
+
+ How inten
+
+Are you enjoying your days?
+
+https://www.pexels.com/api/
+
+Facts
+https://www.samhsa.gov/find-help/atod
+Psych tools
+https://www.psychologytools.com/download-scales-and-measures/
+
+
+
+Mania:
+⁫ Decreased need for sleep with ↑ goal directed behavior:
+⁫ Racing Thoughts:
+⁫ Risk Taking:
+⁫Pressured Speech:
+
+Phychosis:
+⁫A/VH
+⁫Paranoia
+⁫Delusions
+⁫ IOR
+
+Anxiety:
+⁫Worry ⁫Obsessions
+⁫Panic ⁫ Compulsions
+
+Appearance: ☐ Clean ☐ Well-groomed ☐ Dirty
+☐ Disheveled ☐ Inappropriate clothing
+Orientation: ☐ Person ☐ Place ☐ Time
+☐ Situation ☐ Disoriented
+Speech: ☐ Organized/Clear ☐ Coherent ☐ Rapid
+☐ Slowed ☐ Mumbling
+Thought Process: ☐ Organized ☐ Coherent ☐ Tangential
+☐ Thought Blocking ☐ Flight of Ideas
+☐ Poor Concentration ☐ Obsessive
+Thought Content: ☐ Normal ☐ Delusional ☐ Grandiose
+☐ Other
+Perceptual Process: ☐ Normal ☐ Auditory hallucinations
+☐ Visual hallucinations ☐ Other
+Insight: ☐ Good ☐ Average ☐ Poor
+☐ None
+Judgment: ☐ Good ☐ Average ☐ Poor
+☐ None
+Mood: ☐ Normal ☐ Hopeless ☐ Irritable
+☐ Elevated ☐ Labile ☐ Depressed
+☐ Anxious ☐ Sad ☐ Manic
+Affect: ☐ Appropriate ☐ Inappropriate ☐ Blunted
+☐ Flat ☐ Tearful
+Memory: ☐ Intact ☐ Immediate Memory Problem
+☐ Recent Memory
+Problem
+☐ Remote Memory
+Estimated Intellectual
+Functioning:
+☐ Average ☐ Below Average ☐ Above Average
+Cognitive Deficits: ☐ None ☐ Cognitive Deficits Present
+☐ Concentration Deficits Present
+
+
+
+Have you been treated with any of the following medications? Check all that apply.
+Abilify Eskalith Naltrexone Serzone
+Adderall Gabitril Namenda Sonata
+Ambien Geodon Nardil Stelazine
+Antabuse Haldol Navane Strattera
+Aricept Imipramine Neurontin Suboxone
+Ativan Inderal Parnate Tegretol
+Buspar Keppra Pamelor Topamax
+Campral Klonopin Paxil Thorazine
+Celexa Lamictal Pristiq Trazodone
+Chloral Hydrate Lexapro Prolixin Trileptal
+Clozaril Librium Prozac Tranxene
+Cogentin Lithium/Lithobid Remeron Valium
+Concerta Loxitane Reminyl Vistaril
+Cymbalta Lunesta Restoril Vyvanse
+Dalmane Luvox Risperdal Wellbutrin
+Depakote Mellaril Ritalin Xanax
+Effexor Methadone Serax Zoloft
+Elavil Miltown Seroquel Zyprexa
+
+Recurrent failure to fulfill duties at work/school/home?
+Using in situations that could be dangerous (e.g. driving a car)?
+Legal problems (arrest, DUI, etc.)?
+Recurrent social or relationship problems (e.g. arguments with spouse)?
+Needing more and more to get the same effect? Less effect on same dose?
+Withdrawal symptoms when you stopped or reduced your dose?
+Taking more, or for a longer time, than you planned?
+Wanting, or trying unsuccessfully, to cut back or quit?
+Spending a great deal of time in activities surrounding the substance?
+Reducing important social/occupational/recreational activities because of the substance?
+Knowing that it was harming your physical or mental health and taking it anyway?
+Doing things that violate your own personal code of ethics (e.g. lying, stealing, etc.)?
+
+Reproductive History (Women only)
+When was your last menstrual period?_________________________________________
+Do you currently use birth control? If yes, what kind? Any problems?
+________________________________________________________________________
+Are you currently pregnant? Yes No
+If not pregnant, are you trying to become pregnant? Yes No
+Have you experienced any of the following:
+Pregnancies Yes No Elective Abortion Yes No
+Miscarriages Yes No Infertility Yes No
+
+Weight and Eating Habits
+Current Weight ________Highest________Lowest_______ Height___________
+Yes No
+Are you unhappy with your current weight?
+Do you have intense fear of becoming fat?
+Have you ever missed 3 menstrual cycles in a row?
+Have you ever restricted your eating below 1000 calories/day?
+Do you ever binge or lose control of how much you eat?
+Do you ever intentionally vomit after eating?
+Do you ever use laxatives, diuretics, or other drugs to lose weight?
+Have you had a significant weight gain in the past 6 months?
+Have you had a significant weight loss in the past 6 months?
+
+
+Developmental History
+Please indicate which of the following you experienced while you were growing up:
+Experience Age Comments
+Death of a parent
+Death of other loved one
+Separation from parent or
+family
+Parent’s separation/divorce
+Loss of home
+Financial problems
+Physical abuse
+Sexual abuse/in childhood
+Sexual assault or rape
+Parents with substance abuse
+Conflicts with parents/family
+Foster care
+Adoption
+Unwanted pregnancy
+School problems
+Medical illness in self
+Medical illness in family
+member
 
 Sign Up
 Log In
@@ -20,15 +175,6 @@ Log In
 Email/Authenticate
 Sign up with Facebook
 Sign up with Google
-
-
-Male/Female
-First Name
-Last Name
-Age
-
-Choose program intensity. 
-Easy/Average/Intense
 
 Motivation and guidance to make a true lifestyle change. You will get:
 Dedicated coach
@@ -38,189 +184,13 @@ Answers: Get my customized course or I have an invite code (UPID)
 
 Having something to look forward to can be a big motivator to stick with your plan.
 
-Men in their 40s who want to reach an ideal weight between x and y may need slightly different strategy depending on their current lifestyle. Which best describes you?
-My diet and activity need a lot of work
-I have some healthy habits
-I mostly eat well and stay active
+Time each answer.
 
-What is your main reason for wanting to lose weight?
-Improve physical appearance
-ENgage more with family and friends
-Become healthier
-Feel better day-to-day
-Other
+Is this too hard (like on Garmin watch)
 
-Are you at risk of any of the following?
-Testosterone deficiency
-Heart Disease or Stroke
-High Blood Press
-Diabetes
-NASH
-High Cholestrerol
-Asthma
-Insomnia
-Osteoarthritis
-Kidney Disease
-Depression
-Other - text input
-None
-
-Did you play sports or follow any other structured activity routine growing up?
-Yes/No
-
-As a man in your 40s, your environment can play a major role in your ability to lose wight. Which best describes the area you live in?
-The country
-The suburbs
-A major city
-
-Have any life events led to weight gain in the last few years? Choose all that apply:
-Marriage or relationship
-Injury
-Busier work and family life
-Slower metabolism
-Stress
-Mental Health
-Medication
-Hormonal Disorder
-
-How long has it been since you were your ideal weight?
-0-6 months
-6 months - 12 months
-1 -3 years
-More than 3 years
-
-Which of the following weight loss programs have you used in the past 12 months?
-Nutrisystem.....
-
-Have you attempted any of the foolowing in the past to help you lose weight?
-Paid meal plans
-Restrictive dieting
-Gym membership
-Prescription medication or procedure
-None of the above
-
-Have you subscribed to any of the following services in the past to help improve you mental wellness?
-Betterhelp
-Talkspace
-Youper
-Headspace
-Calm
-Happify
-
-Doyou relate to this statement: I know what I should be doing to lose weight, but I need a way to do it that fits into MY life/"
-Yes/No
-
-Has your weight ever affected your ability to socialize or engage with friends and family?
-Yes/Sometimes/No
-
-Do you relate to this statement: I need some outside motivation. When I am feeling overwhelmed, it can be easy to give up.
-Yes/No
-
-Do you relate to this statement: I have been thinking about weight loss for a while, but life is so busy I find myself putting convenience first.
-Yes/No
-
-What area do you want to focus on first in your plan?
-Nutrition
-Physical activity
-Building good habits
-Other - text
-
-Do you relate to the following statement: I am looking for a weight loss plan that does not involve working out.
-Yes/No
-
-Do you have any dietary restrictions or food allergies?
-Yes/No
-
-Noom uses techniques based in behavioral therapy to help you achieve sustained weight loss. When it comes to Cognitive Behavioral Therapy you are:
-An expert
-Curious
-Uncertain
-
-Understanding how your emotions change over time helps us customize your program. How has your motivation to lose weight changed over time?
-It stays consistent
-It ebbs and flows
-I'm still finding it
-
-At this moment, how motivated are you to reach your target weight?
-I'm ready
-Feeling hopeful
-I'm cautious
-Taking it easy
-
-How confident are you that you can XYZ
-I believe I can do it!
-I'm uncertain, but willing to try!
-I'm still really unsure
-
-Why are you uncertain about hitting your weight loss goal (check all that appply)?
-I haven't had success in the past
-Previous plans were too restrictive
-Hitting a plateau
-Losing weight and gaining it back
-Losing motivation
-Plan does not seem realistic
-
-When it comes to your weight loss goal, what's on your mind?
-I have a specific need and goal
-I want to take care of myself
-I'm looking for something new
-
-When do you typically feel the urge to grab a drink?
-Mornings
-Afternoon
-Evenings
-Late at night
-
-
-What typically triggers your urge to snack and nibble?
-Food around me 'Boredom
-Hunger
-Other people snacking
-Something else - text
-
-Feeling empowered is key to sustained behavior change and weight loss. As we build your paln, what else would you like to explore?
-Brain
-Behavior
-Digestion
-Sleep
-Stress
-Energy
 
 Your concerns are normal, but there is good news. Our curriculum digs into what works and what doesn't for you, so you can build your motivation and habits and hit your goals.
 Yo yo effect of restrictive abstenance programs. We help your create long-term results through the development of healthy habits and behavioral change.
-
-Are you currently subscribed to any of the following services (select all that apply)?
-Gym Membership
-Fitness App
-Meal kit delivery
-Meditation App
-None
-
-Are you subscribed to any of the following gyms?
-24 Hour Fitness
-Planet Fitness
-Other - text
-
-Do you wear a smartwatch or fitness tracker?
-Yes/No
-
-What kind of smartwatch / fitness tracker do you wear?
-TicWatch
-Fossil
-Whoop
-Apple Watch
-Samsung Galaxy
-Fitbit
-Garmin
-Other - text
-
-Do you own a scale?
-Yes, a smart internet-connected scale
-Yes, a basic scale
-No
-
-What kind of smart scale?
-.....
 
 How busy are you on the average day?
 I barely have any time for myself
@@ -228,19 +198,6 @@ I'm busy but try to reserve some time each day to relax and unwind
 I'm not too busy anad keep time open for different things
 My schedule is fairly open and flexible
 
-Is it common for you to have one or more alcoholic beverages at hte end of the day>
-Yes/Occasionally/No
-
-Which below best describe your current status?
-Married
-Married with kids
-In a relationship
-Single
-
-This is your plan, designed to work at your pace. So know =ing you, as only you can, which pace would you prefer>
-As fast as possible
-Slow and steady wins the race
-Somewhere in between the two
 
 A goal without a plan is just a wish.
 Setting small goals allows for more frequent wins.

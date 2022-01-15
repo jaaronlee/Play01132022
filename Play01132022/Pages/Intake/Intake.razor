@@ -7,31 +7,29 @@
 }
 else
 {
-         @foreach (var question in questions)
-                    {
-                        <tr>
-                            <h2>@question.QQuestion</h2>
-                            @foreach (string s in question.Answers)
-                                {
-                                    <Button Size="@_size" Block>@s</Button>
-                                    <p></p>
-                                }
-                        <p></p>
-                        </tr>
-                    }
+    @foreach (var question in questions)
+    {
+        <tr>
+            <h2>@question.QQuestion</h2>
+            @foreach (string s in question.Answers)
+            {
+                <Button Size="@_size" Block>@s</Button>
+                <p></p>
+            }
+        </tr>
+        <p></p>
+    }
 }
 
-@code {
+    @code {
     private Question[]? questions;
-
-    int index = 0;
-
-    string _size = ButtonSize.Large;
 
     protected override async Task OnInitializedAsync()
     {
         questions = await Http.GetFromJsonAsync<Question[]>("sample-data/intake.json");
     }
+
+    string _size = ButtonSize.Large;
 
     public class Question
     {
@@ -39,12 +37,6 @@ else
         public string QType { get; set; }
         public string QQuestion { get; set; }
         public string[]? Answers { get; set; }
+        public string Variable { get; set; }
     }
-
-    public class Answer
-    {
-        public string aNumber{ get; set; }
-        public string aQuestion{ get; set; }
-        public string aAnswer{ get; set; }
     }
-}

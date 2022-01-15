@@ -50,6 +50,2050 @@
       "I have mostly healthy habits",
       "I have a pretty even mixture of healthy and unhealthy habits",
       "I have mostly unhealthy habits"
-    ]
-  }
+    ],
+    "Variable": "Habits1"
+  },
+  {
+    "Number": "00006",
+    "QType": "CH13",
+    "QQuestion": "Are you at risk of any of the following (click all that apply)?",
+    "Answers": [
+      "Testosterone deficiency",
+      "Heart Disease or Stroke",
+      "High Blood Press",
+      "Diabetes",
+      "NASH",
+      "High Cholestrerol",
+      "Asthma",
+      "Insomnia",
+      "Osteoarthritis",
+      "Kidney Disease",
+      "Depression",
+      "None",
+      "Other"
+    ],
+    "Variable": "Deseases"
+  },
+  {
+    "Number": "00063",
+    "QType": "CH",
+    "QQuestion": "To you knowledge, did you mother have (click all that apply)?",
+    "Answers": [
+      "Nervous Problems",
+      "Depresion",
+      "Hyperactivity",
+      "Psychiatric Medication",
+      "Psychiatric Hospitalization",
+      "Suicide Attempt(s)",
+      "Death bu Suicide",
+      "A drinking problem",
+      "A drug problem",
+      "Smoked",
+      "None",
+      "Other"
+    ],
+    "Variable": "Mother"
+  },
+  {
+    "Number": "00064",
+    "QType": "CH",
+    "QQuestion": "To you knowledge, did you father have (click all that apply)?",
+    "Answers": [
+      "Nervous Problems",
+      "Depresion",
+      "Hyperactivity",
+      "Psychiatric Medication",
+      "Psychiatric Hospitalization",
+      "Suicide Attempt(s)",
+      "Death bu Suicide",
+      "A drinking problem",
+      "A drug problem",
+      "Smoked",
+      "None",
+      "Other"
+    ],
+    "Variable": "Father"
+  },
+  {
+    "Number": "00065",
+    "QType": "CH",
+    "QQuestion": "To you knowledge, did any of your grandparents have (click all that apply)?",
+    "Answers": [
+      "Nervous Problems",
+      "Depresion",
+      "Hyperactivity",
+      "Psychiatric Medication",
+      "Psychiatric Hospitalization",
+      "Suicide Attempt(s)",
+      "Death bu Suicide",
+      "A drinking problem",
+      "A drug problem",
+      "Smoked",
+      "None",
+      "Other"
+    ],
+    "Variable": "Grandparents"
+  },
+  {
+    "Number": "00066",
+    "QType": "CH",
+    "QQuestion": "To you knowledge, did any of your siblings have (click all that apply)?",
+    "Answers": [
+      "Nervous Problems",
+      "Depresion",
+      "Hyperactivity",
+      "Psychiatric Medication",
+      "Psychiatric Hospitalization",
+      "Suicide Attempt(s)",
+      "Death bu Suicide",
+      "A drinking problem",
+      "A drug problem",
+      "Smoked",
+      "None",
+      "Other"
+    ],
+    "Variable": "Siblings"
+  },
+  {
+    "Number": "00066",
+    "QType": "CH",
+    "QQuestion": "Check you highest level of COMPLETED education?",
+    "Answers": [
+      "Elementary school",
+      "Middle school",
+      "High school",
+      "College (Undergraduate)",
+      "Masters",
+      "JD",
+      "Doctorate",
+      "None",
+      "Other"
+    ],
+    "Variable": "Education"
+  },
+  {
+    "Number": "00067",
+    "QType": "CH",
+    "QQuestion": "Have you eaver been abused?",
+    "Answers": [
+      "Verbally",
+      "Emotionally",
+      "Physically",
+      "Sexually",
+      "Neglected",
+      "None",
+      "Other"
+    ],
+    "Variable": "Abused"
+  },
+  {
+    "Number": "00068",
+    "QType": "CH",
+    "QQuestion": "Check all that have occered to you in the past two years?",
+    "Answers": [
+      "Death of Spouse",
+      100,
+      "Divorce",
+      73,
+      "Marital Separation",
+      65,
+      "Gone to jail",
+      63,
+      "Death of close family member",
+      63,
+      "Personal injury or serious illness",
+      53,
+      "Marriage",
+      50,
+      "Fired at work",
+      47,
+      "Marital reconciliation",
+      45,
+      "Retirement",
+      45,
+      "Change in the health of a family member",
+      44,
+      "Pregnancy",
+      40,
+      "Sexual Difficulties",
+      39,
+      "Gain of a new family member",
+      39,
+      "Business readjustment",
+      39,
+      "Change in financial state",
+      39,
+      "Increase in arguments with spouse",
+      35,
+      "Mortgage over $100,000",
+      31,
+      "Foreclosure of mortgage or loan",
+      30,
+      "Change in responsibilities at work",
+      29,
+      "Son or daughter leaving home",
+      29,
+      "Trouble with in-laws",
+      29,
+      "Outstanding personal achievement (graduation, promotion, athletic, goal reached)",
+      28,
+      "Spouse begins or stops work",
+      26,
+      "Begin or end school",
+      26,
+      "Change in living conditions",
+      25,
+      "Revision in personal habits",
+      24,
+      "Trouble with boss",
+      23,
+      "Change in work hours or conditions",
+      20,
+      "Change in residence",
+      20,
+      "Change in schools",
+      20,
+      "Change in recreation",
+      19,
+      "Change in church activites",
+      19,
+      "Change in social activities",
+      18,
+      "Mortgage or loan less than $30,000",
+      17,
+      "Change in sleeping habits",
+      16,
+      "Change in number of family get-togethers",
+      15,
+      "Change in eating habits",
+      15,
+      "Vacation",
+      13,
+      "Christmas alone",
+      12,
+      "Minor violations of law",
+      11,
+      "Next"
+    ],
+    "Variable": "HolmesRaheScale"
+  },
+  {
+    "Number": "00007",
+    "QType": "ABC",
+    "QQuestion": "Did you play sports or follow any other structured activity routine growing up?",
+    "Answers": [
+      "Yes",
+      "No",
+      "Some"
+    ],
+    "Variable": "Sports"
+  },
+  {
+    "Number": "00008",
+    "QType": "ABC",
+    "QQuestion": "How would you best describe your environment?",
+    "Answers": [
+      "The country",
+      "The Suburbs",
+      "A major city"
+    ],
+    "Variable": "City"
+  },
+  {
+    "Number": "00053",
+    "QType": "ABC",
+    "QQuestion": "Sexual orientation:",
+    "Answers": [
+      "Heterosexual",
+      "Homosexual",
+      "Bisexual",
+      "Other"
+    ],
+    "Variable": "City"
+  },
+  {
+    "Number": "00009",
+    "QType": "ABC",
+    "QQuestion": "How would you best describe your current situation?",
+    "Answers": [
+      "Single",
+      "Married",
+      "Separated",
+      "Divorced",
+      "Remarried",
+      "Engaged",
+      "Widowed",
+      "Cohabiting",
+      "Dating Monogamous",
+      "Dating not serious"
+    ],
+    "Variable": "Married"
+  },
+  {
+    "Number": "00010",
+    "QType": "ABC",
+    "QQuestion": "Do you have children?",
+    "Answers": [
+      "No",
+      "I have one child",
+      "I have two children",
+      "I have three or more children"
+    ],
+    "Variable": "Married"
+  },
+  {
+    "Number": "00049",
+    "QType": "TEXT+",
+    "QQuestion": "Please list below:",
+    "Answers": [
+      "Name",
+      "Sex",
+      "Age"
+    ],
+    "Variable": "KidList"
+  },
+  {
+    "Number": "00050",
+    "QType": "TEXT+",
+    "QQuestion": "Please list children below:",
+    "Answers": [
+      "Name",
+      "Sex",
+      "Age"
+    ],
+    "Variable": "KidList"
+  },
+  {
+    "Number": "00051",
+    "QType": "TEXT+",
+    "QQuestion": "Please list everyone (aside from you and your children) that live at your residence?",
+    "Answers": [
+      "Name",
+      "Relation",
+      "Sex",
+      "Age"
+    ],
+    "Variable": "Residence"
+  },
+  {
+    "Number": "00070",
+    "QType": "ABC",
+    "QQuestion": "I currently (which best describes you situation):",
+    "Answers": [
+      "Do not havea enough money to live on",
+      "Live pay check to pay check",
+      "Am able to save a few hundred dollars most months",
+      "Don't have to worry about money"
+    ],
+    "Variable": "AdequateMoney"
+  },
+  {
+    "Number": "00071",
+    "QType": "ABC",
+    "QQuestion": "My monthly household income is (include all income earners in your household):",
+    "Answers": [
+      "Less than $28,000",
+      "Less than $50,000",
+      "Less than $80,000",
+      "Less than $150,000",
+      "Over $150,000",
+      "Other"
+    ],
+    "Variable": "AdequateMoney"
+  },
+  {
+    "Number": "00058",
+    "QType": "CH",
+    "QQuestion": "I have a history of (check all that are true for you):",
+    "Answers": [
+      "Heart desease",
+      "Smoking",
+      "Tabacco use (not smoking)",
+      "Hypertension",
+      "Diabetes",
+      "Obesity",
+      "Frequest worry"
+    ],
+    "Variable": "Symptoms8"
+  },
+  {
+    "Number": "00059",
+    "QType": "ABC",
+    "QQuestion": "Which best describes your mood over the past few weeks?",
+    "Answers": [
+      "Angry",
+      "Anxious",
+      "Distressed",
+      "Fatigued",
+      "Frustrated",
+      "Worried",
+      "Flat",
+      "Irritable",
+      "Sad",
+      "Hopeless",
+      "Helpless"
+    ],
+    {
+      "Number": "00060",
+      "QType": "CH",
+      "QQuestion": "I often feel (check all that apply):",
+      "Answers": [
+        "Angry",
+        "Anxious",
+        "Distressed",
+        "Fatigued",
+        "Frustrated",
+        "Worried",
+        "Flat",
+        "Irritable",
+        "Sad",
+        "Hopeless",
+        "Helpless"
+      ],
+      {
+        "Number": "00068",
+        "QType": "CH",
+        "QQuestion": "Have you suffered from any of the following in the last month (check all that apply):",
+        "Answers": [
+          "Headaches",
+          "Dizziness",
+          "Heart Pounding",
+          "Muscle Spasms",
+          "Muscle Tension",
+          "Numbness",
+          "Chest Pains",
+          "Sweating",
+          "Shortness of Breath",
+          "Sexual Problems",
+          "Diarrhea",
+          "Vision Changes",
+          "Tics or Twitches",
+          "Fatigue or Fainting",
+          "Blackouts",
+          "Skin Problems",
+          "Nausea",
+          "Chills or Hot Flashes",
+          "Trembling or Shaking",
+          "Mouth Muscle or Joint Pain"
+        ],
+        {
+          "Number": "00069",
+          "QType": "CH",
+          "QQuestion": "Which describe your childhood (check all that apply)?",
+          "Answers": [
+            "Happy",
+            "Chaotic",
+            "Troubled",
+            "Unstable",
+            "Violent",
+            "Invalidating",
+            "Oppressive",
+            "Unstructured",
+            "Shortness of Breath"
+          ],
+          {
+            "Number": "00052",
+            "QType": "CH",
+            "QQuestion": "Do you have the following (check all that apply)?",
+            "Answers": [
+              "Difficulty falling asleep (without consuming alcohol)",
+              "Difficulty getting out of bed in the morning",
+              "Difficulty not stayinf asleep and/or sleeping through the night",
+              "Rapid mood changes or irritability",
+              "Difficulty expression emotions",
+              "Concerns about your sexuality"
+            ],
+            "Variable": "Syptoms1"
+          },
+          {
+            "Number": "00053",
+            "QType": "CH",
+            "QQuestion": "Have you experienced (check all that apply)?",
+            "Answers": [
+              "Persistent loss of interest in previously enjoyed activities",
+              "Withdrawing from other people Spending increased time alone",
+              "A depressed mood or feeling numb",
+              "Not feeling rested in the morning",
+              "Hear voices when no one else is present",
+              "Feeling that your thoughts are controlled or placed in your mind",
+              "Feeling that the television or the radio is communicating with you"
+            ],
+            "Variable": "Symptoms2"
+          },
+          {
+            "Number": "00054",
+            "QType": "CH",
+            "QQuestion": "I've also had (check all that apply)?",
+            "Answers": [
+              "Anxiety and/or panic attacks",
+              "Frequent feelings of guilt",
+              "Difficulty leaving my home",
+              "Difficulty problem solving",
+              "Difficulty meeting role expectations",
+              "Difficulty concentrating or thinking"
+            ],
+            "Variable": "Symptoms3"
+          },
+          {
+            "Number": "00055",
+            "QType": "CH",
+            "QQuestion": "I tend to (check all that apply)?",
+            "Answers": [
+              "Avoiding people, places, activities or specific things",
+              "Fear of certain objects or situations (i.e., flying, heights, bugs)",
+              "Have outburst of anger",
+              "Have repetitive behaviors or mental acts (i.e., counting, checking doors, washing hands)",
+              "Manipulate others to fulfill my own desires",
+              "Have a difficulty or inability to say “no” to others"
+            ],
+            "Variable": "Symptoms4"
+          },
+          {
+            "Number": "00056",
+            "QType": "CH",
+            "QQuestion": "I often feel (check all that are true for you):",
+            "Answers": [
+              "Worthlessness",
+              "Hopelessness",
+              "Sadness",
+              "Helplessness",
+              "As if I were outside myself, detached, observing what I am doing",
+              "Puzzled as to what is real and unreal"
+            ],
+            "Variable": "Symptoms5"
+          },
+          {
+            "Number": "00061",
+            "QType": "YNList+",
+            "QQuestion": "Are you CURRENTLY taking any psychiatric mediation (please list)?",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "List": [
+              "Medication",
+              "Dosage",
+              "How long have you been taking it?",
+              "Has it been helpful"
+            ],
+            "Variable": "Medications"
+          },
+          {
+            "Number": "00062",
+            "QType": "YNList+",
+            "QQuestion": "Are you CURRENTLY taking any NON-psychiatric mediation (please list)?",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "List": [
+              "Medication",
+              "Dosage",
+              "How long have you been taking it?",
+              "Has it been helpful"
+            ],
+            "Variable": "Medications"
+          },
+          {
+            "Number": "00063",
+            "QType": "YNList+",
+            "QQuestion": "Are you taken any psychiatric mediation IN THE PAST (please list)?",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "List": [
+              "Medication",
+              "Dosage",
+              "How long have you been taking it?",
+              "Has it been helpful"
+            ],
+            "Variable": "Medications"
+          },
+          {
+            "Number": "00064",
+            "QType": "YNList+",
+            "QQuestion": "Have you been hospitalized for psychiatric reasons (please list)?",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "List": [
+              "Hospital",
+              "Dates",
+              "Reason?",
+              "Was it helpful?"
+            ],
+            "Variable": "Medications"
+          },
+          {
+            "Number": "00057",
+            "QType": "CH",
+            "QQuestion": "I sometimes have (check all that are true for you):",
+            "Answers": [
+              "Flashbacks",
+              "Nightmares",
+              "Thoughts about harming or killing myself",
+              "Thoughts about harming or killing someone else",
+              "Persistent, repetitive, intrusive thoughts, impulses, or images",
+              "Unusual visual experiences such as flashes of light, shadows"
+            ],
+            "Variable": "Symptoms6"
+          },
+          {
+            "Number": "00057",
+            "QType": "CH",
+            "QQuestion": "I have (check all that are true for you):",
+            "Answers": [
+              "Intentionally cut or hurt myself",
+              "Made myself vomit or used laxitives to control my weight",
+              "Exercised excessively in order to avoid weight gain",
+              "Experienced binge eating",
+              "Racing thoughts",
+              "UIntrusive memories",
+              "Frequest worry"
+            ],
+            "Variable": "Symptoms7"
+          },
+          {
+            "Number": "00011",
+            "QType": "CH",
+            "QQuestion": "Have any life events led you to consume more alcohol in the past 12 months? Check all that apply.",
+            "Answers": [
+              "Relationship issues",
+              "Injury",
+              "More stressful work life",
+              "Busier family life",
+              "Stress",
+              "Mental health"
+            ],
+            "Variable": "LifeEvents"
+          },
+          {
+            "Number": "00012",
+            "QType": "ABC",
+            "QQuestion": "How long has it been since you consumed on a regular basis what you consider an acceptable amount of alcohol?? Check all that apply.",
+            "Answers": [
+              "I currently consume what I consider to be an acceptable amount of alcohol",
+              "I consumed what I consider to be an acceptable amount of alcohol around 6-12 months ago",
+              "I consumed what I consider to be an acceptable amount of alcohol around 1-3 years ago",
+              "I consumed what I consider to be an acceptable amount of alcohol more than 3 years ago",
+              "I have never consumed what I consider to be an accetable amount of alcohol"
+            ],
+            "Variable": "TimeSinceOkConsumption"
+          },
+          {
+            "Number": "00013",
+            "QType": "YN",
+            "QQuestion": "Have you ever been involved in a 12 step program?",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "Variable": "12Step"
+          },
+          {
+            "Number": "00014",
+            "QType": "YN",
+            "QQuestion": "Have you ever been involved in a 12 step program?",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "Variable": "12StepYesNo"
+          },
+          {
+            "Number": "00015",
+            "QType": "ABC",
+            "QQuestion": "How would you evaluate the 12 step program?",
+            "Answers": [
+              "I loved the 12 step program, and it helped me imemnsly",
+              "The 12 step program helped me somewhat at the time nut the change was not lasting",
+              "The 12 step program did nothing for me"
+            ],
+            "Variable": "12StepYesNo"
+          },
+          {
+            "Number": "00014",
+            "QType": "CH",
+            "QQuestion": "Which of the steps did you find effective for you?",
+            "Answers": [
+              "Step 1: We admitted we were powerless over alcohol — that our lives had become unmanageable",
+              "Step 2: Came to believe that a Power greater than ourselves could restore us to sanity",
+              "Step 3: Made a decision to turn our will and our lives over to the care of God as we understood Him",
+              "Step 4: Made a searching and fearless moral inventory of ourselves",
+              "Step 5: Admitted to God, to ourselves, and to another human being the exact nature of our wrongs",
+              "Step 6: Were entirely ready to have God remove all these defects of character",
+              "Step 7: Humbly asked Him to remove our shortcomings",
+              "Step 8: Made a list of all persons we had harmed, and became willing to make amends to them all",
+              "Step 9: Made direct amends to such people wherever possible, except when to do so would injure them or others",
+              "Step 10: Continued to take personal inventory and when we were wrong promptly admitted it",
+              "Step 11: Sought through prayer and meditation to improve our conscious contact with God as we understood Him, praying only for knowledge of His will for us and the power to carry that out",
+              "Step 12 Having had a spiritual awakening as the result of these Steps, we tried to carry this message to alcoholics, and to practice these principles in all our affairs"
+            ],
+            "Variable": "12Steps"
+          },
+          {
+            "Number": "00080",
+            "QType": "ABC",
+            "QQuestion": "I drink as a way to celebrate (check most accurate for you):",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "SocialDrinking1"
+          },
+          {
+            "Number": "00081",
+            "QType": "ABC",
+            "QQuestion": "I drink because it is what most of your friends do when you get together",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "SocialDrinking2"
+          },
+          {
+            "Number": "00082",
+            "QType": "ABC",
+            "QQuestion": "I drink socially",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "SocialDrinking3"
+          },
+          {
+            "Number": "00083",
+            "QType": "ABC",
+            "QQuestion": "I drink because it is customary or a special occasion",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "SocialDrinking4"
+          },
+          {
+            "Number": "00084",
+            "QType": "ABC",
+            "QQuestion": "I drink because it makes social situations more enjoyable or tolerable",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "SocialDrinking5"
+          },
+          {
+            "Number": "00085",
+            "QType": "ABC",
+            "QQuestion": "I drink because it makes social situations more enjoyable or tolerable",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "SocialDrinking5"
+          },
+          {
+            "Number": "00086",
+            "QType": "ABC",
+            "QQuestion": "I drink to relax",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "CopingDrinking1"
+          },
+          {
+            "Number": "00087",
+            "QType": "ABC",
+            "QQuestion": "I drink to forget my worries",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "CopingDrinking2"
+          },
+          {
+            "Number": "00087",
+            "QType": "ABC",
+            "QQuestion": "I drink to feel more seslf-confident or sure of myself",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "CopingDrinking3"
+          },
+          {
+            "Number": "00088",
+            "QType": "ABC",
+            "QQuestion": "I drink because it helps me when I feel depressed or nervous",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "CopingDrinking4"
+          },
+          {
+            "Number": "00089",
+            "QType": "ABC",
+            "QQuestion": "I drink because it helps me cheer up when I am in a bad mood",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "CopingDrinking5"
+          },
+          {
+            "Number": "00090",
+            "QType": "ABC",
+            "QQuestion": "I drink because it helps me perform sexually, or I fear I won't perform without it",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "SocialDrinking6"
+          },
+          {
+            "Number": "00091",
+            "QType": "ABC",
+            "QQuestion": "I drink because it helps me be creative",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "EnhancementDrinking1"
+          },
+          {
+            "Number": "00092",
+            "QType": "ABC",
+            "QQuestion": "I drink because I like the feeling",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "EnhancementDrinking2"
+          },
+          {
+            "Number": "00093",
+            "QType": "ABC",
+            "QQuestion": "I drink because it is exciting",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "EnhancementDrinking3"
+          },
+          {
+            "Number": "00094",
+            "QType": "ABC",
+            "QQuestion": "I drink because to get high",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "EnhancementDrinking4"
+          },
+          {
+            "Number": "00095",
+            "QType": "ABC",
+            "QQuestion": "I drink because it makes me feel good",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "EnhancementDrinking5"
+          },
+          {
+            "Number": "00096",
+            "QType": "ABC",
+            "QQuestion": "I drink because it makes me feel like the real me",
+            "Answers": [
+              "Daily",
+              "Weekly",
+              "A few times a month",
+              "Once a month",
+              "A few times a year",
+              "Sometimes",
+              "Never"
+            ],
+            "Variable": "EnhancementDrinking6"
+          },
+          {
+            "Number": "00100",
+            "QType": "ABC",
+            "QQuestion": "Do you find yourself thinking about when you will next be able to have another drink or take more drugs?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence1"
+          },
+          {
+            "Number": "00101",
+            "QType": "ABC",
+            "QQuestion": "Is drinking or taking drugs more important than anything else you might do during the day?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence2"
+          },
+          {
+            "Number": "00102",
+            "QType": "ABC",
+            "QQuestion": "Do you feel that your need for drink or drugs is too strong to control?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence3"
+          },
+          {
+            "Number": "00103",
+            "QType": "ABC",
+            "QQuestion": "Do you plan your days around getting or taking drink or drugs?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence4"
+          },
+          {
+            "Number": "00104",
+            "QType": "ABC",
+            "QQuestion": "Do you drink or take drugs in a particular way in order to increase the effect it gives you?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence5"
+          },
+          {
+            "Number": "00105",
+            "QType": "ABC",
+            "QQuestion": "Do you take drink or drugs in the morning, afternoon and evening?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence6"
+          },
+          {
+            "Number": "00106",
+            "QType": "ABC",
+            "QQuestion": "Do you feel you have to continue drinking or taking drugs once you have started?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence7"
+          },
+          {
+            "Number": "00107",
+            "QType": "ABC",
+            "QQuestion": "Is getting the effect you want more important than the particular drink or drug that you use?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence8"
+          },
+          {
+            "Number": "00108",
+            "QType": "ABC",
+            "QQuestion": "Do you take more drink or drugs when the effect starts to wear off?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence9"
+          },
+          {
+            "Number": "00109",
+            "QType": "ABC",
+            "QQuestion": "Do you find it difficult to cope with life without drink or drugs?",
+            "Answers": [
+              "Never",
+              "Sometimes",
+              "Often",
+              "Nearly always"
+            ],
+            "Variable": "LeedsDependence10"
+          },
+          {
+            "Number": "00110",
+            "QType": "ABC",
+            "QQuestion": "I don't think I drink too much.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange1",
+            "Link": "https://ndarc.med.unsw.edu.au/sites/default/files/ndarc/resources/TR.019.pdf"
+          },
+          {
+            "Number": "00111",
+            "QType": "ABC",
+            "QQuestion": "I am trying to drink less than I used to.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange2"
+          },
+          {
+            "Number": "00112",
+            "QType": "ABC",
+            "QQuestion": "I enjoy my drinking but sometimes I drink too much.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange3"
+          },
+          {
+            "Number": "00113",
+            "QType": "ABC",
+            "QQuestion": "Sometimes I think I should cut down on my drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange4"
+          },
+          {
+            "Number": "00114",
+            "QType": "ABC",
+            "QQuestion": "It's a waste of time thnking about my drinking.'",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange5"
+          },
+          {
+            "Number": "00115",
+            "QType": "ABC",
+            "QQuestion": "I have just recently changed my drinking habits.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange6"
+          },
+          {
+            "Number": "00116",
+            "QType": "ABC",
+            "QQuestion": "Anyone can talk about wanting to do something about drinking, but I am actually doing something about it.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange7"
+          },
+          {
+            "Number": "00117",
+            "QType": "ABC",
+            "QQuestion": "I am at the stage where I should think about drinking less alcohol.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange8"
+          },
+          {
+            "Number": "00118",
+            "QType": "ABC",
+            "QQuestion": "My drinking is a problem sometimes.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange9"
+          },
+          {
+            "Number": "00119",
+            "QType": "ABC",
+            "QQuestion": "There is no need for to think about changing my drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange10"
+          },
+          {
+            "Number": "00120",
+            "QType": "ABC",
+            "QQuestion": "I am actually changing my drinking habits right now.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange11"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00130",
+            "QType": "ABC",
+            "QQuestion": "I really want to make changes in my drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates1"
+          },
+          {
+            "Number": "00131",
+            "QType": "ABC",
+            "QQuestion": "Sometimes I wonder if I am an alcoholic.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates2"
+          },
+          {
+            "Number": "00132",
+            "QType": "ABC",
+            "QQuestion": "If I don't change my drinking soon, my problems are going to get worse.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates3"
+          },
+          {
+            "Number": "00133",
+            "QType": "ABC",
+            "QQuestion": "I have already started making some changes in my drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates4"
+          },
+          {
+            "Number": "00134",
+            "QType": "ABC",
+            "QQuestion": "I was drinking too much at one time, but I've managed to change my drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates5"
+          },
+          {
+            "Number": "00135",
+            "QType": "ABC",
+            "QQuestion": "Sometimes I wonder if my drinking is hurting other people.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates6"
+          },
+          {
+            "Number": "00136",
+            "QType": "ABC",
+            "QQuestion": "I am a problem drinker.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates7"
+          },
+          {
+            "Number": "00137",
+            "QType": "ABC",
+            "QQuestion": "I'm not just thinking about changing my drinking, I'm already doing something about it.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Socrates8"
+            ],
+            "Variable": "Socrates8"
+          },
+          {
+            "Number": "00138",
+            "QType": "ABC",
+            "QQuestion": "I have already changed my drinking, and I am looking for ways to keep from slipping back to my old pattern.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates9"
+          },
+          {
+            "Number": "00139",
+            "QType": "ABC",
+            "QQuestion": "I have serious problems with drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates10"
+          },
+          {
+            "Number": "00140",
+            "QType": "ABC",
+            "QQuestion": "Sometimes I wonder if I am in control of my drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates11"
+          },
+          {
+            "Number": "00141",
+            "QType": "ABC",
+            "QQuestion": "My drinking is causing a lot of harm.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates12"
+          },
+          {
+            "Number": "00142",
+            "QType": "ABC",
+            "QQuestion": "I am actively doing things now to cut down or stop drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates13"
+          },
+          {
+            "Number": "00143",
+            "QType": "ABC",
+            "QQuestion": "I want help to keep from going back to the drinking problems that I had before.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates14"
+          },
+          {
+            "Number": "00144",
+            "QType": "ABC",
+            "QQuestion": "I know that I have a drinking problem.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates15"
+          },
+          {
+            "Number": "00145",
+            "QType": "ABC",
+            "QQuestion": "There are times when I wonder if I drink too much.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates16"
+          },
+          {
+            "Number": "00146",
+            "QType": "ABC",
+            "QQuestion": "I am an alcoholic.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates17"
+          },
+          {
+            "Number": "00147",
+            "QType": "ABC",
+            "QQuestion": "I am working hard to change my drinking.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates18"
+          },
+          {
+            "Number": "00148",
+            "QType": "ABC",
+            "QQuestion": "I have made some changes in my drinking, and I want some help to keep from going back to the way I used to drink.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "Socrates19"
+          },
+          {
+            "Number": "00149",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00121",
+            "QType": "ABC",
+            "QQuestion": "Drinking less alcohol would be pointless for me.",
+            "Answers": [
+              "Strongly Agree",
+              "Agree",
+              "Unsure",
+              "Disagree",
+              "Disagree",
+              "Strongly Disagree"
+            ],
+            "Variable": "StagesChange12"
+          },
+          {
+            "Number": "00015",
+            "QType": "ABC",
+            "QQuestion": "Do you consider yourself:",
+            "Answers": [
+              "Very religious",
+              "Somewhat religious",
+              "A little religious",
+              "Spiritual but not religious",
+              "Not religious or spiritual"
+            ],
+            "Variable": "Religious"
+          },
+          {
+            "Number": "00016",
+            "QType": "ABCDE",
+            "QQuestion": "Do you consider yourself physically:",
+            "Answers": [
+              "Very Active",
+              "Somewhat Active",
+              "Exercise on occasion",
+              "Do not exercise"
+            ],
+            "Variable": "Physically"
+          },
+          {
+            "Number": "00017",
+            "QType": "ABCDE",
+            "QQuestion": "Have you subscribed to any of the following services in the past to help improve you mental wellness?",
+            "Answers": [
+              "Betterhelp",
+              "Talkspace",
+              "Youper",
+              "Headspace",
+              "Calm",
+              "Happify"
+            ],
+            "Variable": "Services"
+          },
+          {
+            "Number": "00018",
+            "QType": "YN",
+            "QQuestion": "Do you relate to this statement: I know I should drink less, but I need help managing my life with less alcohol",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "Variable": "RelateDrinkLessLife"
+          },
+          {
+            "Number": "00019",
+            "QType": "YN",
+            "QQuestion": "Do you relate to this statement: I know I should do to drink less?",
+            "Answers": [
+              "Yes",
+              "No"
+            ],
+            "Variable": "KnowWhatDrinkLess"
+          },
+          "Variable",
+
+          "RelateDrinkLessLife"
+        },
+        {
+          "Number": "00020",
+          "QType": "YN",
+          "QQuestion": "Do you relate to this statement: I need some outside motivation. When I am feeling overwhelmed, it can be easy to give up?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "NeedOutsideMotivation"
+        },
+        {
+          "Number": "00021",
+          "QType": "YN",
+          "QQuestion": "Do you relate to this statement: I have been thinking about drinking less for while, but find it difficult to manage day to day?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "ThinkingAboutQuitting"
+        },
+        {
+          "Number": "00022",
+          "QType": "ABC",
+          "QQuestion": "What area would you like to focus on first in your plan?",
+          "Answers": [
+            "Nutrition",
+            "Physical activity",
+            "Building good habits",
+            "Learning about yourself and exploring your feelings"
+          ],
+          "Variable": "Focus"
+        },
+        {
+          "Number": "00023",
+          "QType": "CH",
+          "QQuestion": "I am familiar with these types of therapy (check all that apply):",
+          "Answers": [
+            "Cognitive Behavioral Therapy",
+            "Dialectical Behaviour Therapy",
+            "Psychoanalysis"
+          ],
+          "Variable": "Therapy"
+        },
+        {
+          "Number": "00024",
+          "QType": "ABC",
+          "QQuestion": "Understanding how your emotions change over time helps us customize your program. How has your motivation to lose weight changed over time?",
+          "Answers": [
+            "It stays consistenty",
+            "It ebbs and flows",
+            "I find it difficult to maintain motivation on a day to day basis"
+          ],
+          "Variable": "EmotionOverTime"
+        },
+        {
+          "Number": "00025",
+          "QType": "ABC",
+          "QQuestion": "Right now how motivated are you to reach your target?",
+          "Answers": [
+            "I have focused and very motivated",
+            "I am feeling hopefully",
+            "I'm cautious",
+            "I feel very little motivation"
+          ],
+          "Variable": "Motivation"
+        },
+        {
+          "Number": "00026",
+          "QType": "ABC",
+          "QQuestion": "How confident are you that you can achieve your drinkng goals?",
+          "Answers": [
+            "I believe I can do it",
+            "I am uncertain but going to give it my best effort",
+            "I'm feeling very uncertain",
+            "I feel like I will fail"
+          ],
+          "Variable": "Confidence"
+        },
+        {
+          "Number": "00027",
+          "QType": "ABC",
+          "QQuestion": "Why are you uncertain about hitting your drinkng goals?",
+          "Answers": [
+            "I have failed in the past",
+            "I found abstinence overwhelming",
+            "I feel I hit a plateau, then fall of a cliff",
+            "I abstain for a while, then go back to drinking more than I want to",
+            "This plan doesn't seem realistic"
+          ],
+          "Variable": "WhyNoConfidence"
+        },
+        {
+          "Number": "00028",
+          "QType": "CH",
+          "QQuestion": "When do you typically feel the urge to grab a drink (check all that apply)?",
+          "Answers": [
+            "All the time",
+            "In the morning, especially on my weekends",
+            "During my lunch break",
+            "When I get off work",
+            "When people are drinking around me",
+            "When I am feeling stressed",
+            "When I want to escape my thoughts"
+          ],
+          "Variable": "WhenUrge"
+        },
+        {
+          "Number": "00029",
+          "QType": "CH",
+          "QQuestion": "Do any of these things trigger you to drink?",
+          "Answers": [
+            "Alcohol around me",
+            "Boredom",
+            "....."
+          ],
+          "Variable": "Triggers"
+        },
+        {
+          "Number": "00030",
+          "QType": "CH",
+          "QQuestion": "Are you currently subscribed to any of the following services?",
+          "Answers": [
+            "Gym Membership",
+            "Fitness App",
+            "Meal kit delivery",
+            "Meditation App",
+            "None"
+          ],
+          "Variable": "Subscribed"
+        },
+        {
+          "Number": "00031",
+          "QType": "CH",
+          "QQuestion": "Do wear a smartwatch or fitness tracker?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "Tracker"
+        },
+        {
+          "Number": "00032",
+          "QType": "ABC",
+          "QQuestion": "Which fitness tracker or smart watch do you wear?",
+          "Answers": [
+            "Apple Watch",
+            "Garmin",
+            "Fitbit",
+            "Samsung",
+            "TicWatch",
+            "Imoo",
+            "Huawei",
+            "Other"
+          ],
+          "Variable": "TrackerType"
+        },
+        {
+          "Number": "00033",
+          "QType": "YN",
+          "QQuestion": "Have you been diagnosed with a substance use disorder?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "SubstanceUseDisorder"
+        },
+        {
+          "Number": "00034",
+          "QType": "YN",
+          "QQuestion": "Do you have cravings to drink?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "CravingsYN"
+        },
+        {
+          "Number": "00035",
+          "QType": "YN",
+          "QQuestion": "Have you wanted to stop drinking in the past but found it difficult to stop?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "StopYN"
+        },
+        {
+          "Number": "00036",
+          "QType": "YN",
+          "QQuestion": "Have you previously drank more that you meant to or for a longer period of time than you meant to?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "MeantToDrink"
+        },
+        {
+          "Number": "00037",
+          "QType": "YN",
+          "QQuestion": "Have you neglected other parts of your life (work, family, your interests) because of drinking?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "NeglectYN"
+        },
+        {
+          "Number": "00038",
+          "QType": "YN",
+          "QQuestion": "Has drinking caused problems in your relationships?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "RelationshipsYN"
+        },
+        {
+          "Number": "00039",
+          "QType": "YN",
+          "QQuestion": "Have you drank even though it put you in danger (driving or in unsafe environemts or states?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "DangerYN"
+        },
+        {
+          "Number": "00041",
+          "QType": "YN",
+          "QQuestion": "Do you spending a lot of time getting, using, or recovering from drinking?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "TimeSpent"
+        },
+        {
+          "Number": "00042",
+          "QType": "YN",
+          "QQuestion": "Do you neglect to do should at work, home, or school because of drinking?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "TimeSpent"
+        },
+        {
+          "Number": "00043",
+          "QType": "YN",
+          "QQuestion": "Are there hobbies or social, occupational, or recreational activities that you used to do, but do not now because of drinking?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "LostHobbies"
+        },
+        {
+          "Number": "00044",
+          "QType": "YN",
+          "QQuestion": "Have you continued, even when you know you have a physical or psychological problem that could have been caused or made worse from drinking?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "LostHobbies"
+        },
+        {
+          "Number": "00045",
+          "QType": "YN",
+          "QQuestion": "Do find you have to drink n=more now to get the same affect that you used to get from fw=ewer drinks?",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "Tolerance"
+        },
+        {
+          "Number": "00046",
+          "QType": "YN",
+          "QQuestion": "Have you experienced any physical or psychological withdrawal symptons that were relieved by drinking??",
+          "Answers": [
+            "Yes",
+            "No"
+          ],
+          "Variable": "Withdrawal"
+        },
+        {
+          "Number": "00040",
+          "QType": "CH",
+          "QQuestion": "Check substances that you have used in the past 6 months?",
+          "Answers": [
+            "Alcohol",
+            "Caffeine",
+            "Cannabis",
+            "Hallucinogens (phencyclidine or similarly acting arylcyclohexylamines, and other hallucinogens, such as LSD)",
+            "Inhalants",
+            "Opioids",
+            "Sedatives",
+            "Hypnotics",
+            "Anxiolytics",
+            "Stimulants including amphetamine-type substances, cocaine, and other stimulants",
+            "Tobacco",
+            "Other"
+          ],
+          "Variable": "Substances"
+        },
+        {
+          "Number": "00047",
+          "QType": "CH",
+          "QQuestion": "Have you been diagnosed with (check all that apply):",
+          "Answers": [
+            "Alcohol use disorder",
+            "Cannabis use disorder",
+            "Hallucinogenuse disorder",
+            "Stimulant use disorder",
+            "Tabacco use disorder",
+            "Other"
+          ],
+          "Variable": "Substances"
+        }
 ]
+
