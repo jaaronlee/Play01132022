@@ -1,0 +1,321 @@
+ @foreach (var question in questions)
+            {
+                <tr>
+                    <h2>@question.QQuestion</h2>
+                    @foreach (string s in question.Answers)
+                        {
+                            <Button Block>@s</Button>
+                            <p></p>
+                        }
+                </tr>
+                <p></p>
+            }
+
+
+
+
+Sign Up
+Log In
+
+Email/Authenticate
+Sign up with Facebook
+Sign up with Google
+
+
+Male/Female
+First Name
+Last Name
+Age
+
+Choose program intensity. 
+Easy/Average/Intense
+
+Motivation and guidance to make a true lifestyle change. You will get:
+Dedicated coach
+24/7 Support
+Scientifically recognized solution
+Answers: Get my customized course or I have an invite code (UPID)
+
+Having something to look forward to can be a big motivator to stick with your plan.
+
+Men in their 40s who want to reach an ideal weight between x and y may need slightly different strategy depending on their current lifestyle. Which best describes you?
+My diet and activity need a lot of work
+I have some healthy habits
+I mostly eat well and stay active
+
+What is your main reason for wanting to lose weight?
+Improve physical appearance
+ENgage more with family and friends
+Become healthier
+Feel better day-to-day
+Other
+
+Are you at risk of any of the following?
+Testosterone deficiency
+Heart Disease or Stroke
+High Blood Press
+Diabetes
+NASH
+High Cholestrerol
+Asthma
+Insomnia
+Osteoarthritis
+Kidney Disease
+Depression
+Other - text input
+None
+
+Did you play sports or follow any other structured activity routine growing up?
+Yes/No
+
+As a man in your 40s, your environment can play a major role in your ability to lose wight. Which best describes the area you live in?
+The country
+The suburbs
+A major city
+
+Have any life events led to weight gain in the last few years? Choose all that apply:
+Marriage or relationship
+Injury
+Busier work and family life
+Slower metabolism
+Stress
+Mental Health
+Medication
+Hormonal Disorder
+
+How long has it been since you were your ideal weight?
+0-6 months
+6 months - 12 months
+1 -3 years
+More than 3 years
+
+Which of the following weight loss programs have you used in the past 12 months?
+Nutrisystem.....
+
+Have you attempted any of the foolowing in the past to help you lose weight?
+Paid meal plans
+Restrictive dieting
+Gym membership
+Prescription medication or procedure
+None of the above
+
+Have you subscribed to any of the following services in the past to help improve you mental wellness?
+Betterhelp
+Talkspace
+Youper
+Headspace
+Calm
+Happify
+
+Doyou relate to this statement: I know what I should be doing to lose weight, but I need a way to do it that fits into MY life/"
+Yes/No
+
+Has your weight ever affected your ability to socialize or engage with friends and family?
+Yes/Sometimes/No
+
+Do you relate to this statement: I need some outside motivation. When I am feeling overwhelmed, it can be easy to give up.
+Yes/No
+
+Do you relate to this statement: I have been thinking about weight loss for a while, but life is so busy I find myself putting convenience first.
+Yes/No
+
+What area do you want to focus on first in your plan?
+Nutrition
+Physical activity
+Building good habits
+Other - text
+
+Do you relate to the following statement: I am looking for a weight loss plan that does not involve working out.
+Yes/No
+
+Do you have any dietary restrictions or food allergies?
+Yes/No
+
+Noom uses techniques based in behavioral therapy to help you achieve sustained weight loss. When it comes to Cognitive Behavioral Therapy you are:
+An expert
+Curious
+Uncertain
+
+Understanding how your emotions change over time helps us customize your program. How has your motivation to lose weight changed over time?
+It stays consistent
+It ebbs and flows
+I'm still finding it
+
+At this moment, how motivated are you to reach your target weight?
+I'm ready
+Feeling hopeful
+I'm cautious
+Taking it easy
+
+How confident are you that you can XYZ
+I believe I can do it!
+I'm uncertain, but willing to try!
+I'm still really unsure
+
+Why are you uncertain about hitting your weight loss goal (check all that appply)?
+I haven't had success in the past
+Previous plans were too restrictive
+Hitting a plateau
+Losing weight and gaining it back
+Losing motivation
+Plan does not seem realistic
+
+When it comes to your weight loss goal, what's on your mind?
+I have a specific need and goal
+I want to take care of myself
+I'm looking for something new
+
+When do you typically feel the urge to grab a drink?
+Mornings
+Afternoon
+Evenings
+Late at night
+
+
+What typically triggers your urge to snack and nibble?
+Food around me 'Boredom
+Hunger
+Other people snacking
+Something else - text
+
+Feeling empowered is key to sustained behavior change and weight loss. As we build your paln, what else would you like to explore?
+Brain
+Behavior
+Digestion
+Sleep
+Stress
+Energy
+
+Your concerns are normal, but there is good news. Our curriculum digs into what works and what doesn't for you, so you can build your motivation and habits and hit your goals.
+Yo yo effect of restrictive abstenance programs. We help your create long-term results through the development of healthy habits and behavioral change.
+
+Are you currently subscribed to any of the following services (select all that apply)?
+Gym Membership
+Fitness App
+Meal kit delivery
+Meditation App
+None
+
+Are you subscribed to any of the following gyms?
+24 Hour Fitness
+Planet Fitness
+Other - text
+
+Do you wear a smartwatch or fitness tracker?
+Yes/No
+
+What kind of smartwatch / fitness tracker do you wear?
+TicWatch
+Fossil
+Whoop
+Apple Watch
+Samsung Galaxy
+Fitbit
+Garmin
+Other - text
+
+Do you own a scale?
+Yes, a smart internet-connected scale
+Yes, a basic scale
+No
+
+What kind of smart scale?
+.....
+
+How busy are you on the average day?
+I barely have any time for myself
+I'm busy but try to reserve some time each day to relax and unwind
+I'm not too busy anad keep time open for different things
+My schedule is fairly open and flexible
+
+Is it common for you to have one or more alcoholic beverages at hte end of the day>
+Yes/Occasionally/No
+
+Which below best describe your current status?
+Married
+Married with kids
+In a relationship
+Single
+
+This is your plan, designed to work at your pace. So know =ing you, as only you can, which pace would you prefer>
+As fast as possible
+Slow and steady wins the race
+Somewhere in between the two
+
+A goal without a plan is just a wish.
+Setting small goals allows for more frequent wins.
+Reaching goals keeps you motivated.
+Staying motivated helps you crush more goals.
+Set my first goal.
+
+In addition to your weight loss goal, what's a goal you would like to achieve with your program?
+Run a 5k
+Be able to do outdoor activities
+Feel comfortable and confident in my body
+Feel healthier
+Other
+
+Where did you hear abotu us?
+Print magazine
+Podcast
+TV Commercial
+Snapchat
+Facebook
+Blog or Website
+
+On your feet or sitting most of the day?
+Active
+Seated
+
+Choose YOur Trial Price
+It costs us $10 dollars to offer a 14 day trial. Every dollar helps us offer the choose-your-trial-price program!
+$.50 $3 $10 $18.37
+
+Only 10 minutes a day can change your relationship with food
+
+We'll give you daily articles that focus on learning not dieting
+
+If you mess up that is ok.
+Abstinance violation affect
+
+We'll help you get back on track
+
+Based on your answers... you can reach goals.
+
+Preparing results....
+Preparing further questions
+
+Zilcho makes it easy
+
+Answer Types
+
+
+A/B/C/D/E
+Name: AB
+Name: ABC
+Name: ABCD
+Name: ABCDE
+Name: ABCDEF...
+
+Check Box
+Name: CH-ABC
+Name: CH-ABCD
+
+Slider 1-10
+Name: S1-10
+
+Slider 1-100
+Name: S1-100
+
+Slider 1-100%
+Name: S1-100P
+
+Yes/No
+Name: boolYN
+
+True/False
+Name: boolTF
+
+
+Demographic data (at least age and sex) Economic data (e.g., occupation and income) Social (e.g., education and housing)
+Behavoirs and Habits

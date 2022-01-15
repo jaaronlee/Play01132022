@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Number": "00001",
+    "QType": "AB",
+    "QQuestion": "Select one:",
+    "Answers": [
+      "Male",
+      "Female"
+    ],
+    "Variable": "Sex"
+  },
+  {
+    "Number": "00002",
+    "QType": "ABC",
+    "QQuestion": "Choose your program intensity",
+    "Answers": [
+      "Easy",
+      "Average",
+      "Intense"
+    ],
+    "Variable": "Intensity"
+  },
+  {
+    "Number": "00003",
+    "QType": "Int",
+    "QQuestion": "How old are you?",
+    "Answers": [
+      "0-100"
+    ],
+    "Variable": "Age"
+  },
+  {
+    "Number": "00004",
+    "QType": "ABCDE",
+    "QQuestion": "What is the main reason for wanting to reduce your alcohol consumption?",
+    "Answers": [
+      "Improve physical appearance",
+      "Engage more with friends and family",
+      "Become healthier",
+      "Feel better day-to-day",
+      "Other"
+    ],
+    "Variable": "MainReason"
+  },
+  {
+    "Number": "00005",
+    "QType": "ABC",
+    "QQuestion": "Which answer most closely matches how you would describe your habits?",
+    "Answers": [
+      "I have mostly healthy habits",
+      "I have a pretty even mixture of healthy and unhealthy habits",
+      "I have mostly unhealthy habits"
+    ]
+  }
+]
