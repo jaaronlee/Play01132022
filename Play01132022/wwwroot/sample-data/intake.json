@@ -192,87 +192,46 @@
     "QQuestion": "Check all that have occered to you in the past two years?",
     "Answers": [
       "Death of Spouse",
-      100,
       "Divorce",
-      73,
       "Marital Separation",
-      65,
       "Gone to jail",
-      63,
       "Death of close family member",
-      63,
       "Personal injury or serious illness",
-      53,
       "Marriage",
-      50,
       "Fired at work",
-      47,
       "Marital reconciliation",
-      45,
       "Retirement",
-      45,
       "Change in the health of a family member",
-      44,
       "Pregnancy",
-      40,
       "Sexual Difficulties",
-      39,
       "Gain of a new family member",
-      39,
       "Business readjustment",
-      39,
       "Change in financial state",
-      39,
       "Increase in arguments with spouse",
-      35,
       "Mortgage over $100,000",
-      31,
       "Foreclosure of mortgage or loan",
-      30,
       "Change in responsibilities at work",
-      29,
       "Son or daughter leaving home",
-      29,
       "Trouble with in-laws",
-      29,
       "Outstanding personal achievement (graduation, promotion, athletic, goal reached)",
-      28,
       "Spouse begins or stops work",
-      26,
       "Begin or end school",
-      26,
       "Change in living conditions",
-      25,
       "Revision in personal habits",
-      24,
       "Trouble with boss",
-      23,
       "Change in work hours or conditions",
-      20,
       "Change in residence",
-      20,
       "Change in schools",
-      20,
       "Change in recreation",
-      19,
       "Change in church activites",
-      19,
       "Change in social activities",
-      18,
       "Mortgage or loan less than $30,000",
-      17,
       "Change in sleeping habits",
-      16,
       "Change in number of family get-togethers",
-      15,
       "Change in eating habits",
-      15,
       "Vacation",
-      13,
       "Christmas alone",
-      12,
       "Minor violations of law",
-      11,
       "Next"
     ],
     "Variable": "HolmesRaheScale"
@@ -432,65 +391,69 @@
       "Sad",
       "Hopeless",
       "Helpless"
-    ],
-    {
-      "Number": "00060",
-      "QType": "CH",
-      "QQuestion": "I often feel (check all that apply):",
-      "Answers": [
-        "Angry",
-        "Anxious",
-        "Distressed",
-        "Fatigued",
-        "Frustrated",
-        "Worried",
-        "Flat",
-        "Irritable",
-        "Sad",
-        "Hopeless",
-        "Helpless"
-      ],
-      {
-        "Number": "00068",
-        "QType": "CH",
-        "QQuestion": "Have you suffered from any of the following in the last month (check all that apply):",
-        "Answers": [
-          "Headaches",
-          "Dizziness",
-          "Heart Pounding",
-          "Muscle Spasms",
-          "Muscle Tension",
-          "Numbness",
-          "Chest Pains",
-          "Sweating",
-          "Shortness of Breath",
-          "Sexual Problems",
-          "Diarrhea",
-          "Vision Changes",
-          "Tics or Twitches",
-          "Fatigue or Fainting",
-          "Blackouts",
-          "Skin Problems",
-          "Nausea",
-          "Chills or Hot Flashes",
-          "Trembling or Shaking",
-          "Mouth Muscle or Joint Pain"
-        ],
-        {
-          "Number": "00069",
-          "QType": "CH",
-          "QQuestion": "Which describe your childhood (check all that apply)?",
-          "Answers": [
-            "Happy",
-            "Chaotic",
-            "Troubled",
-            "Unstable",
-            "Violent",
-            "Invalidating",
-            "Oppressive",
-            "Unstructured",
-            "Shortness of Breath"
-          ],
+    ]
+  },
+  {
+    "Number": "00060",
+    "QType": "CH",
+    "QQuestion": "I often feel (check all that apply):",
+    "Answers": [
+      "Angry",
+      "Anxious",
+      "Distressed",
+      "Fatigued",
+      "Frustrated",
+      "Worried",
+      "Flat",
+      "Irritable",
+      "Sad",
+      "Hopeless",
+      "Helpless"
+    ]
+  },
+  {
+    "Number": "00068",
+    "QType": "CH",
+    "QQuestion": "Have you suffered from any of the following in the last month (check all that apply):",
+    "Answers": [
+      "Headaches",
+      "Dizziness",
+      "Heart Pounding",
+      "Muscle Spasms",
+      "Muscle Tension",
+      "Numbness",
+      "Chest Pains",
+      "Sweating",
+      "Shortness of Breath",
+      "Sexual Problems",
+      "Diarrhea",
+      "Vision Changes",
+      "Tics or Twitches",
+      "Fatigue or Fainting",
+      "Blackouts",
+      "Skin Problems",
+      "Nausea",
+      "Chills or Hot Flashes",
+      "Trembling or Shaking",
+      "Mouth Muscle or Joint Pain"
+    ]
+  },
+  {
+    "Number": "00069",
+    "QType": "CH",
+    "QQuestion": "Which describe your childhood (check all that apply)?",
+    "Answers": [
+      "Happy",
+      "Chaotic",
+      "Troubled",
+      "Unstable",
+      "Violent",
+      "Invalidating",
+      "Oppressive",
+      "Unstructured",
+      "Shortness of Breath"
+    ]
+  },
           {
             "Number": "00052",
             "QType": "CH",
@@ -1770,10 +1733,6 @@
               "No"
             ],
             "Variable": "KnowWhatDrinkLess"
-          },
-          "Variable",
-
-          "RelateDrinkLessLife"
         },
         {
           "Number": "00020",
@@ -2104,403 +2063,398 @@
           "Variable": "IPIP01",
           "VariableValue": 1
         },
-        {
-          "Number": "0000141",
-          "QType": "ABC",
-          "QQuestion": "Feel little concern for others.",
-          "Answers": [
-            "Very Inaccurate",
-            "Moderately Inaccurate",
-            "Neither Accurate Nor Inaccurate",
-            :
-            "Moderately",
-            ,
-            "Accurate\",\"Very",
-            "Accurate\"],\"Variable\": \"IPIP02\",\"VariableValue\":-2},",
-            {
-              "Number": "0000142",
-              "QType": "ABC",
-              "QQuestion": "Am always prepared.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP03",
-              "VariableValue": 3
-            },
-            {
-              "Number": "0000143",
-              "QType": "ABC",
-              "QQuestion": "Get stressed out easily.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP04",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000144",
-              "QType": "ABC",
-              "QQuestion": "Have a rich vocabulary.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP05",
-              "VariableValue": 5
-            },
-            {
-              "Number": "0000145",
-              "QType": "ABC",
-              "QQuestion": "Don't talk a lot.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP06",
-              "VariableValue": -1
-            },
-            {
-              "Number": "0000146",
-              "QType": "ABC",
-              "QQuestion": "Am interested in people.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP07",
-              "VariableValue": 2
-            },
-            {
-              "Number": "0000147",
-              "QType": "ABC",
-              "QQuestion": "Leave my belongings around.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP08",
-              "VariableValue": -3
-            },
-            {
-              "Number": "0000148",
-              "QType": "ABC",
-              "QQuestion": "Am relaxed most of the time.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP09",
-              "VariableValue": 4
-            },
-            {
-              "Number": "0000149",
-              "QType": "ABC",
-              "QQuestion": "Have difficulty understanding abstract ideas.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP10",
-              "VariableValue": -5
-            },
-            {
-              "Number": "0000150",
-              "QType": "ABC",
-              "QQuestion": "Feel comfortable around people.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP11",
-              "VariableValue": 1
-            },
-            {
-              "Number": "0000151",
-              "QType": "ABC",
-              "QQuestion": "Insult people.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP12",
-              "VariableValue": -2
-            },
-            {
-              "Number": "0000152",
-              "QType": "ABC",
-              "QQuestion": "Pay attention to details.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP13",
-              "VariableValue": 3
-            },
-            {
-              "Number": "0000153",
-              "QType": "ABC",
-              "QQuestion": "Worry about things.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP14",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000154",
-              "QType": "ABC",
-              "QQuestion": "Have a vivid imagination.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP15",
-              "VariableValue": 5
-            },
-            {
-              "Number": "0000155",
-              "QType": "ABC",
-              "QQuestion": "Keep in the background.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP16",
-              "VariableValue": -1
-            },
-            {
-              "Number": "0000156",
-              "QType": "ABC",
-              "QQuestion": "Sympathize with others' feelings.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP17",
-              "VariableValue": 2
-            },
-            {
-              "Number": "0000157",
-              "QType": "ABC",
-              "QQuestion": "Make a mess of things.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP18",
-              "VariableValue": -3
-            },
-            {
-              "Number": "0000158",
-              "QType": "ABC",
-              "QQuestion": "Seldom feel blue.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP19",
-              "VariableValue": 4
-            },
-            {
-              "Number": "0000159",
-              "QType": "ABC",
-              "QQuestion": "Am not interested in abstract ideas.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP20",
-              "VariableValue": -5
-            },
-            {
-              "Number": "0000160",
-              "QType": "ABC",
-              "QQuestion": "Start conversations.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP21",
-              "VariableValue": 1
-            },
-            {
-              "Number": "0000161",
-              "QType": "ABC",
-              "QQuestion": "Am not interested in other people's problems.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP22",
-              "VariableValue": -2
-            },
-            {
-              "Number": "0000162",
-              "QType": "ABC",
-              "QQuestion": "Get chores done right away.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP23",
-              "VariableValue": 3
-            },
-            {
-              "Number": "0000163",
-              "QType": "ABC",
-              "QQuestion": "Am easily disturbed.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP24",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000164",
-              "QType": "ABC",
-              "QQuestion": "Have excellent ideas.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP25",
-              "VariableValue": 5
-            },
-            {
-              "Number": "0000165",
-              "QType": "ABC",
-              "QQuestion": "Have little to say.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP26",
-              "VariableValue": -1
-            },
-            {
-              "Number": "0000166",
-              "QType": "ABC",
-              "QQuestion": "Have a soft heart.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP27",
-              "VariableValue": 2
-            },
-            {
-              "Number": "0000167",
-              "QType": "ABC",
-              "QQuestion": "Often forget to put things back in their proper place.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP28",
-              "VariableValue": -3
-            },
-            {
-              "Number": "0000168",
-              "QType": "ABC",
-              "QQuestion": "Get upset easily.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP29",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000169",
-              "QType": "ABC",
-              "QQuestion": "Do not have a good imagination.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP30",
-              "VariableValue": -5
-            },
-            {
-              "Number": "0000170",
-              "QType": "ABC",
-              "QQuestion": "Talk to a lot of different people at parties.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP31",
-              "VariableValue": 1
-            },
-            {
-              "Number": "0000171",
-              "QType": "ABC",
-              "QQuestion": "Am not really interested in others.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP32",
-              "VariableValue": -2
-            },
-            {
-              "Number": "0000172",
-              "QType": "ABC",
-              "QQuestion": "Like order.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP33",
-              "VariableValue": 3
-            },
-            {
-              "Number": "0000173",
-              "QType": "ABC",
-              "QQuestion": "Change my mood a lot.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP34",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000174",
-              "QType": "ABC",
-              "QQuestion": "Am quick to understand things.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP35",
-              "VariableValue": 5
-            },
-            {
-              "Number": "0000175",
-              "QType": "ABC",
-              "QQuestion": "Don't like to draw attention to myself.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP36",
-              "VariableValue": -1
-            },
-            {
-              "Number": "0000176",
-              "QType": "ABC",
-              "QQuestion": "Take time out for others.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP37",
-              "VariableValue": 2
-            },
-            {
-              "Number": "0000177",
-              "QType": "ABC",
-              "QQuestion": "Shirk my duties.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP38",
-              "VariableValue": -3
-            },
-            {
-              "Number": "0000178",
-              "QType": "ABC",
-              "QQuestion": "Have frequent mood swings.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP39",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000179",
-              "QType": "ABC",
-              "QQuestion": "Use difficult words.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP40",
-              "VariableValue": 5
-            },
-            {
-              "Number": "0000180",
-              "QType": "ABC",
-              "QQuestion": "Don't mind being the center of attention.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP41",
-              "VariableValue": 1
-            },
-            {
-              "Number": "0000181",
-              "QType": "ABC",
-              "QQuestion": "Feel others' emotions.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP42",
-              "VariableValue": 2
-            },
-            {
-              "Number": "0000182",
-              "QType": "ABC",
-              "QQuestion": "Follow a schedule.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP43",
-              "VariableValue": 3
-            },
-            {
-              "Number": "0000183",
-              "QType": "ABC",
-              "QQuestion": "Get irritated easily.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP44",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000184",
-              "QType": "ABC",
-              "QQuestion": "Spend time reflecting on things.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP45",
-              "VariableValue": 5
-            },
-            {
-              "Number": "0000185",
-              "QType": "ABC",
-              "QQuestion": "Am quiet around strangers.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP46",
-              "VariableValue": -1
-            },
-            {
-              "Number": "0000186",
-              "QType": "ABC",
-              "QQuestion": "Make people feel at ease.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP47",
-              "VariableValue": 2
-            },
-            {
-              "Number": "0000187",
-              "QType": "ABC",
-              "QQuestion": "Am exacting in my work.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP48",
-              "VariableValue": 3
-            },
-            {
-              "Number": "0000188",
-              "QType": "ABC",
-              "QQuestion": "Often feel blue.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP49",
-              "VariableValue": -4
-            },
-            {
-              "Number": "0000189",
-              "QType": "ABC",
-              "QQuestion": "Am full of ideas.",
-              "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
-              "Variable": "IPIP50",
-              "VariableValue": 5
-            }
+  {
+    "Number": "0000141",
+    "QType": "ABC",
+    "QQuestion": "Feel little concern for others.",
+    "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+    "Variable": "IPIP03",
+    "VariableValue": -2
+  },
+    {
+      "Number": "0000142",
+      "QType": "ABC",
+      "QQuestion": "Am always prepared.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP03",
+      "VariableValue": 3
+    },
+    {
+      "Number": "0000143",
+      "QType": "ABC",
+      "QQuestion": "Get stressed out easily.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP04",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000144",
+      "QType": "ABC",
+      "QQuestion": "Have a rich vocabulary.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP05",
+      "VariableValue": 5
+    },
+    {
+      "Number": "0000145",
+      "QType": "ABC",
+      "QQuestion": "Don't talk a lot.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP06",
+      "VariableValue": -1
+    },
+    {
+      "Number": "0000146",
+      "QType": "ABC",
+      "QQuestion": "Am interested in people.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP07",
+      "VariableValue": 2
+    },
+    {
+      "Number": "0000147",
+      "QType": "ABC",
+      "QQuestion": "Leave my belongings around.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP08",
+      "VariableValue": -3
+    },
+    {
+      "Number": "0000148",
+      "QType": "ABC",
+      "QQuestion": "Am relaxed most of the time.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP09",
+      "VariableValue": 4
+    },
+    {
+      "Number": "0000149",
+      "QType": "ABC",
+      "QQuestion": "Have difficulty understanding abstract ideas.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP10",
+      "VariableValue": -5
+    },
+    {
+      "Number": "0000150",
+      "QType": "ABC",
+      "QQuestion": "Feel comfortable around people.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP11",
+      "VariableValue": 1
+    },
+    {
+      "Number": "0000151",
+      "QType": "ABC",
+      "QQuestion": "Insult people.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP12",
+      "VariableValue": -2
+    },
+    {
+      "Number": "0000152",
+      "QType": "ABC",
+      "QQuestion": "Pay attention to details.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP13",
+      "VariableValue": 3
+    },
+    {
+      "Number": "0000153",
+      "QType": "ABC",
+      "QQuestion": "Worry about things.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP14",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000154",
+      "QType": "ABC",
+      "QQuestion": "Have a vivid imagination.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP15",
+      "VariableValue": 5
+    },
+    {
+      "Number": "0000155",
+      "QType": "ABC",
+      "QQuestion": "Keep in the background.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP16",
+      "VariableValue": -1
+    },
+    {
+      "Number": "0000156",
+      "QType": "ABC",
+      "QQuestion": "Sympathize with others' feelings.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP17",
+      "VariableValue": 2
+    },
+    {
+      "Number": "0000157",
+      "QType": "ABC",
+      "QQuestion": "Make a mess of things.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP18",
+      "VariableValue": -3
+    },
+    {
+      "Number": "0000158",
+      "QType": "ABC",
+      "QQuestion": "Seldom feel blue.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP19",
+      "VariableValue": 4
+    },
+    {
+      "Number": "0000159",
+      "QType": "ABC",
+      "QQuestion": "Am not interested in abstract ideas.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP20",
+      "VariableValue": -5
+    },
+    {
+      "Number": "0000160",
+      "QType": "ABC",
+      "QQuestion": "Start conversations.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP21",
+      "VariableValue": 1
+    },
+    {
+      "Number": "0000161",
+      "QType": "ABC",
+      "QQuestion": "Am not interested in other people's problems.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP22",
+      "VariableValue": -2
+    },
+    {
+      "Number": "0000162",
+      "QType": "ABC",
+      "QQuestion": "Get chores done right away.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP23",
+      "VariableValue": 3
+    },
+    {
+      "Number": "0000163",
+      "QType": "ABC",
+      "QQuestion": "Am easily disturbed.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP24",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000164",
+      "QType": "ABC",
+      "QQuestion": "Have excellent ideas.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP25",
+      "VariableValue": 5
+    },
+    {
+      "Number": "0000165",
+      "QType": "ABC",
+      "QQuestion": "Have little to say.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP26",
+      "VariableValue": -1
+    },
+    {
+      "Number": "0000166",
+      "QType": "ABC",
+      "QQuestion": "Have a soft heart.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP27",
+      "VariableValue": 2
+    },
+    {
+      "Number": "0000167",
+      "QType": "ABC",
+      "QQuestion": "Often forget to put things back in their proper place.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP28",
+      "VariableValue": -3
+    },
+    {
+      "Number": "0000168",
+      "QType": "ABC",
+      "QQuestion": "Get upset easily.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP29",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000169",
+      "QType": "ABC",
+      "QQuestion": "Do not have a good imagination.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP30",
+      "VariableValue": -5
+    },
+    {
+      "Number": "0000170",
+      "QType": "ABC",
+      "QQuestion": "Talk to a lot of different people at parties.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP31",
+      "VariableValue": 1
+    },
+    {
+      "Number": "0000171",
+      "QType": "ABC",
+      "QQuestion": "Am not really interested in others.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP32",
+      "VariableValue": -2
+    },
+    {
+      "Number": "0000172",
+      "QType": "ABC",
+      "QQuestion": "Like order.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP33",
+      "VariableValue": 3
+    },
+    {
+      "Number": "0000173",
+      "QType": "ABC",
+      "QQuestion": "Change my mood a lot.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP34",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000174",
+      "QType": "ABC",
+      "QQuestion": "Am quick to understand things.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP35",
+      "VariableValue": 5
+    },
+    {
+      "Number": "0000175",
+      "QType": "ABC",
+      "QQuestion": "Don't like to draw attention to myself.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP36",
+      "VariableValue": -1
+    },
+    {
+      "Number": "0000176",
+      "QType": "ABC",
+      "QQuestion": "Take time out for others.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP37",
+      "VariableValue": 2
+    },
+    {
+      "Number": "0000177",
+      "QType": "ABC",
+      "QQuestion": "Shirk my duties.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP38",
+      "VariableValue": -3
+    },
+    {
+      "Number": "0000178",
+      "QType": "ABC",
+      "QQuestion": "Have frequent mood swings.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP39",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000179",
+      "QType": "ABC",
+      "QQuestion": "Use difficult words.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP40",
+      "VariableValue": 5
+    },
+    {
+      "Number": "0000180",
+      "QType": "ABC",
+      "QQuestion": "Don't mind being the center of attention.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP41",
+      "VariableValue": 1
+    },
+    {
+      "Number": "0000181",
+      "QType": "ABC",
+      "QQuestion": "Feel others' emotions.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP42",
+      "VariableValue": 2
+    },
+    {
+      "Number": "0000182",
+      "QType": "ABC",
+      "QQuestion": "Follow a schedule.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP43",
+      "VariableValue": 3
+    },
+    {
+      "Number": "0000183",
+      "QType": "ABC",
+      "QQuestion": "Get irritated easily.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP44",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000184",
+      "QType": "ABC",
+      "QQuestion": "Spend time reflecting on things.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP45",
+      "VariableValue": 5
+    },
+    {
+      "Number": "0000185",
+      "QType": "ABC",
+      "QQuestion": "Am quiet around strangers.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP46",
+      "VariableValue": -1
+    },
+    {
+      "Number": "0000186",
+      "QType": "ABC",
+      "QQuestion": "Make people feel at ease.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP47",
+      "VariableValue": 2
+    },
+    {
+      "Number": "0000187",
+      "QType": "ABC",
+      "QQuestion": "Am exacting in my work.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP48",
+      "VariableValue": 3
+    },
+    {
+      "Number": "0000188",
+      "QType": "ABC",
+      "QQuestion": "Often feel blue.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP49",
+      "VariableValue": -4
+    },
+    {
+      "Number": "0000189",
+      "QType": "ABC",
+      "QQuestion": "Am full of ideas.",
+      "Answers": [ "Very Inaccurate", "Moderately Inaccurate", "Neither Accurate Nor Inaccurate", "Moderately Accurate", "Very Accurate" ],
+      "Variable": "IPIP50",
+      "VariableValue": 5
+    }
 
 
           ]
